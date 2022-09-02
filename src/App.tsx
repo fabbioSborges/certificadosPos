@@ -1,13 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { NavBar } from "components";
+import { HomePage } from "pages";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <NavBar/>
+      <HomePage/>
     </div>
   );
 }
 
-export default App;
