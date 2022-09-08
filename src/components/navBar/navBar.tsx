@@ -2,7 +2,7 @@ export function NavBar() {
     return (
         <nav className="flex items-center bg-[#0377AA] p-2">
             <div className="inline-flex items-center">
-                <img className="px-3 h-9 w-13" src={"assets/pje2.png"}/>
+                <img className="px-3 h-9 w-13" src={"assets/images/pje2.png"}/>
                 <span className="text-[18px] text-white">
                 Processo Judicial Eletrônico - Simulador
                 </span>
