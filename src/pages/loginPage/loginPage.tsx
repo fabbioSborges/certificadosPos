@@ -9,7 +9,7 @@ export function LoginPage() {
 
             <main className='flex flex-col justify-center items-center bg-[#EAF0F3] h-screen'>
                 <div className='flex flex-col justify-center items-center'>
-                    <img className='h-[140px] w-[140px]' src="assets/images/brasaoRep.png" alt="Brasao Republica" />
+                    <img className='h-[140px] w-[140px]' src="assets/brasaoRep.png" alt="Brasao Republica" />
                     <h2 className='text-2xl text-[#074863] mt-2'>Justiça Federal da 1ª Região</h2>
                     <p className='text-xl text-[#074863] mt-2'>Varas e Juizados (1º grau)</p>
                 </div>
@@ -18,7 +18,7 @@ export function LoginPage() {
                     <div className='h-20 flex flex-col justify-center items-center'>
                         <p className="text-[#337AB7] text-lg md:mt-0">Modo de assinatura PJeOffice</p>
                         <button className='w-[364px] flex flex-row justify-between items-center my-2 bg-[#3E92B6] text-white'>
-                            <img src="assets/images/carteirDigital.png" alt="carteira digital" />
+                            <img src="assets/carteirDigital.png" alt="carteira digital" />
                             <p className='my-0 mx-auto'>CERTIFICADO DIGITAL</p>
                         </button>
                         <a href="#" className="text-[#337AB7] text-lg">Saiba como obter o certificado digital</a>
