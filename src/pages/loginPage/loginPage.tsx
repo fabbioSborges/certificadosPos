@@ -9,14 +9,14 @@ export function LoginPage() {
 
             <main className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col justify-center items-center mt-10 md:mt-28'>
-                    <img className='h-[100px] w-[100px]' src="assets/brasaoRep.png" alt="Brasao Republica" />
+                    <img className='h-[100px] w-[100px]' src="assets/images/brasaoRep.png" alt="Brasao Republica" />
                     <h2 className='md:text-2xl text-xl text-[#074863] mt-2'>Processo Judicial Eletrônico - 1º Grau - TJPI</h2>
                     <p className='text-lg text-[#074863] mt-2'>Tribunal de Justiça do Piauí</p>
                 </div>
 
                 <div className='py-4 px-5 mt-5 flex flex-col-reverse md:flex-row justify-center items-center bg-white drop-shadow-lg rounded-md'>                  
                     <button className='flex flex-row justify-between items-center text-white bg-[#3E92B6] rounded-sm'>    
-                        <img className="w-[50px]" src="assets/carteirDigital.png" alt="carteira digital" />
+                        <img className="w-[50px]" src="assets/images/carteirDigital.png" alt="carteira digital" />
                         <p className='py-2.5 px-7'>CERTIFICADO DIGITAL</p>
                     </button>
 

@@ -10,7 +10,7 @@ export function NavBar() {
             
             <div className="flex justify-between items-center">
                 <span className="md:text-[18px] text-[14px] text-white">
-                    <img className="md:h-9 h-7 mx-2 inline" src="assets/pje2.png"/>
+                    <img className="md:h-9 h-7 mx-2 inline" src="assets/images/pje2.png"/>
                     Processo Judicial Eletrônico - Simulador
                 </span>
                 
