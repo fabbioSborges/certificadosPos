@@ -6,7 +6,7 @@ export function NavBar() {
     const [visibleHamburgermenu, setVisibleHamburgermenu] = useState(false);
 
     return (
-        <nav className="p-2 bg-[#0377AA] md:flex md:items-center md:justify-between">
+        <nav className="p-2 bg-[#0377AA] md:flex md:items-center md:justify-between flex-wrap">
             
             <div className="flex justify-between items-center">
                 <span className="md:text-[18px] text-[14px] text-white">
