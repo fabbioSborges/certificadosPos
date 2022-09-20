@@ -6,7 +6,7 @@ interface Props {
 
 export function LayoutSecondary(props: Props) {
     return (
-        <div>
+        <div className="flex flex-col w-full h-full">
             <header>
                 <NavBar/>
             </header>
