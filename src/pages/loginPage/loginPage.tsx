@@ -2,7 +2,7 @@ import { NavBar } from "components";
 
 export function LoginPage() {
     return (
-        <div className="bg-[#EAF0F3] h-screen">
+        <div className="bg-[#EAF0F3] h-full">
             <header>
                 <NavBar/>
             </header>
@@ -14,7 +14,7 @@ export function LoginPage() {
                     <p className='text-lg text-[#074863] mt-2'>Tribunal de Justiça do Piauí</p>
                 </div>
 
-                <div className='py-4 px-5 mt-5 flex flex-col-reverse md:flex-row justify-center items-center bg-white drop-shadow-lg rounded-md'>                  
+                <div className='py-4 px-5 mt-5 flex flex-col-reverse md:flex-row justify-center items-center bg-white drop-shadow-lg rounded-md mb-10 md:mb-0'>                  
                     <button className='flex flex-row justify-between items-center text-white bg-[#3E92B6] rounded-sm'>    
                         <img className="w-[50px]" src="assets/images/carteirDigital.png" alt="carteira digital" />
                         <p className='py-2.5 px-7'>CERTIFICADO DIGITAL</p>
