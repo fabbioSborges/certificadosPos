@@ -29,7 +29,7 @@ export function NavBarDashboard() {
                 </div>
             </nav>
 
-            <div className = {visibleHamburgermenu ? "hidden" : "bg-white w-[300px] h-screen flex flex-col"}>
+            <div className = {visibleHamburgermenu ? "hidden" : "bg-white w-[300px] flex flex-col flex-grow"}>
                 <div className="flex m-4 border-b border-[#3E92B6]">
                     <span className="inline-flex items-center mx-2">
                         <IonIcon className="text-[20px] text-[#3E92B6] p-1" name="search"></IonIcon>
@@ -62,10 +62,10 @@ export function NavBarDashboard() {
                     
                     <hr />
 
-                    <button className="flex flex-row items-center text-gray-500 ">
+                    <button className="flex flex-row items-center text-gray-500 w-full">
                         <IonIcon className="text-[26px] py-4 px-6 " name="calendar"></IonIcon>
                         <p>Audiências e sessões</p>
-                        <IonIcon className="text-[16px]" name="chevron-forward-outline"></IonIcon>
+                        <IonIcon className="ml-auto text-[16px]" name="chevron-forward-outline"></IonIcon>
                     </button>
 
                     <hr />

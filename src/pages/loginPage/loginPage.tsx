@@ -2,7 +2,7 @@ import { NavBar } from "components";
 
 export function LoginPage() {
     return (
-        <div className="bg-[#EAF0F3] h-full">
+        <div className="bg-[#EAF0F3] min-h-screen">
             <header>
                 <NavBar/>
             </header>
