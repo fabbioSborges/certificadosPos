@@ -1,4 +1,4 @@
 export * from "./navBar"
 export * from "./layout"
-export * from "./NavBarDashboard"
+export * from "./navBarDashboard"
 export * from "./sideBarMenu"
