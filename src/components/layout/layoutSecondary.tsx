@@ -11,11 +11,11 @@ export function LayoutSecondary(props: Props) {
 
     return (
         <>
-            <header className="">
+            <header className="w-full">
                 <NavBarDashboard handleSideMenu={setShowSideMenu} showSideMenu={showSideMenu}/>
             </header>
         
-            <main className="h-full flex flex-row w-full">
+            <main className="flex w-full h-full"> {/*rever uso do h*/}
                 <SideBarMenu showSideMenu={showSideMenu} />
 
                 {props.children}

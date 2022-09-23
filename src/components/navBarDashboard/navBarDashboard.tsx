@@ -9,14 +9,13 @@ export function NavBarDashboard(props: PropsNavBarDashboard) {
 
     return (
         <>
-            <nav className="px-3 bg-[#0377AA] flex items-center justify-between">
-                <div className="flex justify-between items-center ">
-                    
-                <button onClick={(e) => props.showSideMenu ? props.handleSideMenu(false) : props.handleSideMenu(true)}>
-                    <div className={props.showSideMenu ? "text-[#0377AA] bg-white cursor-pointer py-1.5" : "text-white cursor-pointer py-1.5" }>
-                        <IonIcon className="text-3xl mx-2 " name={props.showSideMenu ? "close" : "menu"}></IonIcon>
-                    </div>
-                </button>
+            <nav className="px-3 bg-[#0377AA] flex-grow flex items-center justify-between">
+                <div className="flex justify-between items-center">
+                    <button onClick={(e) => props.showSideMenu ? props.handleSideMenu(false) : props.handleSideMenu(true)}>
+                        <div className={props.showSideMenu ? "text-[#0377AA] bg-white cursor-pointer py-1.5" : "text-white cursor-pointer py-1.5" }>
+                            <IonIcon className="text-3xl mx-2 " name={props.showSideMenu ? "close" : "menu"}></IonIcon>
+                        </div>
+                    </button>
                     
                     <span className="text-[18px]  text-white">
                         <img className="h-9 mx-2 inline" src="assets/images/pje2.png"/>

@@ -7,7 +7,7 @@ interface PropsSideMenu {
 export function SideBarMenu(props: PropsSideMenu) {
 
     return (
-        <div className = {props.showSideMenu ? "bg-white w-[300px] flex flex-col flex-grow" : "hidden"}>
+        <div className = {props.showSideMenu ? "bg-white visible w-[300px] flex flex-col transition-all duration-100" : "invisible w-[0px] transition-all duration-100"}>
                 <div className="flex m-4 border-b border-[#3E92B6]">
                     <span className="inline-flex items-center mx-2">
                         <IonIcon className="text-[20px] text-[#3E92B6] p-1" name="search"></IonIcon>
