@@ -1,18 +1,27 @@
-import { NavBar } from "components";
+import { NavBarDashboard, SideBarMenu } from "components";
+import { useState } from "react";
 
 interface Props {
     children: any,
 }
 
 export function LayoutSecondary(props: Props) {
+
+    const [showSideMenu, setShowSideMenu] = useState<boolean>(false)
+
     return (
-        <div className="flex flex-col w-full h-full">
-            <header>
-                <NavBar/>
+        <>
+            <header className="w-full">
+                <NavBarDashboard handleSideMenu={setShowSideMenu} showSideMenu={showSideMenu}/>
             </header>
-            <main>
+        
+            <main className="flex w-full h-full"> {/*rever uso do h*/}
+                <SideBarMenu showSideMenu={showSideMenu} />
+
                 {props.children}
+
             </main>
-        </div>
+
+        </>
     );
 }
