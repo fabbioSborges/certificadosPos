@@ -1,9 +1,10 @@
 import { LoginPage } from "pages";
+import AppRoutes from "./routes";
 
 export default function App() {
   return (
-    <div>
-      <LoginPage/>
+    <div className="w-full h-full">
+      <AppRoutes/>
     </div>
   );
 }
